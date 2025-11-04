@@ -1,0 +1,10 @@
+#!/bin/bash
+# =================================================
+# Author: Ajaogu Chiwendu
+# Program: Winmingle Community C Training
+# Description: Generate assembly code from a C file
+# ==================================================
+
+output_file="main.s"
+gcc -S "$CFILE" -o "$output_file"
+

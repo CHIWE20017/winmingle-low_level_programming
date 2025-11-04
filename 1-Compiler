@@ -1,0 +1,10 @@
+#!/bin/bash
+# ==============================================
+# Author: Ajaogu Chiwendu
+# Program: Winmingle Community C Training
+# Description: Compiler a C file without linking
+# ==============================================
+
+output_file="main.o"
+
+gcc -c "$CFILE" -o "$output_file"

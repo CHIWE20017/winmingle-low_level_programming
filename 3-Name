@@ -1,0 +1,9 @@
+#!/bin/bash
+# ====================================
+# Author: Ajaogu Chiwendu
+# Program: Winmingle Community C training
+# Description: compiles a C file and save the file in cisfun
+# ======================================
+
+
+gcc "$CFILE" -o cisfun
