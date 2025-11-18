@@ -1,9 +1,9 @@
 #!/bin/bash
-#=================================
-#Author: Ajaogu Chiwendu Tessy 
-#Program: Winmingle Community C Training
-#Description: Generate intel syntax assembly code from a C file
-#==================================
+#=============================================
+# Author: Ajaogu Chiwendu Tessy
+# Program: WinMingle Community C Training
+# Description: Generating an assembly code (intel syntax)
+#===============================================
 
+gcc -S -masm=intel $CFILE -o ${CFILE/'.c'/'.s'}
 
-gcc -S -masm=intel "$CFILE" -o "${CFILE%.*}.s" 
