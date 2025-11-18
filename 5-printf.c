@@ -1,14 +1,15 @@
-/**
+#include <stdio.h>
+ /**
  * Author: Ajaogu Chiwendu Tessy
- * Program: Winmingle Community C Training
- * Description:Prints a message using prinf
+ * Program: WinMingle Community C Training
+ * Description: Writing a c program that prints an output
  */
 
-#include<stdio.h>
-
 int main(void)
-{ 
+{
 	printf("with proper grammar, but the outcome is a piece of art,\n");
-		return(0);
+	return(0);
+
+
 }
 
