@@ -1,8 +1,0 @@
-#!/bin/bash
-# =================================================
-# Author: Ajaogu Chiwendu
-# Program: Winmingle Community C Training
-# Description: Runing a C preprocessor on the file specified by $CFILE 
-# ==================================================
-
-gcc -E "$CFILE" -o c

@@ -812,9 +812,16 @@ extern int __overflow (FILE *, int);
 # 2 "main.c" 2
 
 
-# 3 "main.c"
+
+
+
+
+
+
+# 9 "main.c"
 int main(void)
 {
-     printf("hello, world"/n)
- return 0;
+ printf("Hello World\n");
+ return(0);
+
 }

@@ -3,7 +3,7 @@
 	.text
 	.section	.rodata
 .LC0:
-	.string	"hello, world/n"
+	.string	"Hello World"
 	.text
 	.globl	main
 	.type	main, @function
@@ -18,8 +18,7 @@ main:
 	.cfi_def_cfa_register 6
 	lea	rax, .LC0[rip]
 	mov	rdi, rax
-	mov	eax, 0
-	call	printf@PLT
+	call	puts@PLT
 	mov	eax, 0
 	pop	rbp
 	.cfi_def_cfa 7, 8

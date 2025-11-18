@@ -1,12 +1,15 @@
 #include <stdio.h>
-/**
- * Author:Ajaogu Chiwendu
- * Program: Winmingle Community C Training
- * Description: Simple program that print "Hello World!"
+
+ /**
+ * Author: Ajaogi Chiwendu Tessy
+ * Program: WinMingle Community C Training
+ * Description: Writing a script that runs a c file
  */
 
 int main(void)
-{	
-     printf("hello, world/n");
-	return 0;    
+{
+	printf("Hello World\n");
+	return(0);
+
 }
+
