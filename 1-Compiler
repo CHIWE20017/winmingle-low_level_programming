@@ -1,0 +1,9 @@
+#!/bin/bash
+#================================
+# Author: Ajaogu Chiwendu Tessy
+# Program: WinMingle Community C Training
+# Description: Writing a script that compiles c file but dose not link 
+#====================================
+
+gcc -c $CFILE
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+#===========================
+# Author: Ajaogu Chiwendu Tessy
+# Program: WinMingle Community C Training
+# Description: Writing a script that runs C file
+#=============================
+
+gcc -E $CFILE -o c

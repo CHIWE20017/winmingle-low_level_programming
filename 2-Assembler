@@ -1,0 +1,9 @@
+#!/bin/bash
+#===========================================
+# Author: Ajaogu Chiwendu Tessy
+# Program: WinMingle Community C Training
+# Description: Writing script that generate assembly code C and save in an output file
+#==============================================
+
+gcc -S $CFILE
+
